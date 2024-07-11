@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: main ;
+    src: url('../webfonts/Playwrite_MX/PlaywriteMX-VariableFont_wght.ttf');
+} 
+    
+
+
+body{
+    background-image: url('../image/blue-cloudy-daylight-background-for-weather-design_33099-512.avif');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+font-family: main;
+}
+.container{
+    width: 75%;
+}
+.nav-item a{
+    transition: 0.4s;
+}
+.nav-item a:hover{
+color: rgba(255, 177, 7, 1);
+border: 1px solid rgba(255, 177, 7, 1);
+border-radius: 10%;
+}
+.navbar-brand p{
+    font-size: 12px;
+}
+.d-flex{
+    position: relative;
+    
+   
+}
+ button.rounded-pill{
+    font-size: 18px;
+    position: absolute;
+    right: 3%;
+    top:53%
+} 
+p{
+    color: white;
+}
+
+.special{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.table{
+    font-size: 14px;
+}
+form input{
+    border: 1px solid transparent;
+    background-color: rgb(255, 255, 255);
+}
+
+.contact i{
+    cursor: pointer;
+    color: black;
+}
+.copyright{
+    font-size: 12px;
+}
+
+.degree{
+    font-size: 50px;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #52c8e0;
+    border-bottom-color: rgba(255, 177, 7, 1);
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+
+    .loading{
+        position: fixed;
+        inset: 0;
+        background-color: #f8f8f84a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+ 
